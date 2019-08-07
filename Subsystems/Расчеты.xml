@@ -15,7 +15,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.СметаПоОбъекту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">52c6c060-83c1-11e8-7698-0cd2925c3816</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Объекты</xr:Item>
 			</Content>
 		</Properties>

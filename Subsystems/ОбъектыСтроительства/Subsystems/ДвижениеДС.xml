@@ -23,6 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансОбъектовСтроительства</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ДвижениеДенежныхСредств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.БюджетированиеОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АвансовыйОтчет</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -85,6 +85,7 @@
 		</UsualGroup>
 		<InputField name="Ответственный" id="10">
 			<DataPath>Объект.Ответственный</DataPath>
+			<ReadOnly>true</ReadOnly>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="12"/>
@@ -93,6 +94,7 @@
 			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
+			<VerticalStretch>false</VerticalStretch>
 			<MultiLine>true</MultiLine>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="18"/>

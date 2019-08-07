@@ -334,8 +334,6 @@
 			<Role>ЧтениеВариантовОтчетов</Role>
 			<Role>ЧтениеВнешнихПользователей</Role>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
-			<CommonModule>НоменклатураСервер</CommonModule>
-			<CommonModule>НоменклатураВызовСервера</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
@@ -358,6 +356,8 @@
 			<CommonModule>ИнтеграцияСТехнологиейСервиса</CommonModule>
 			<CommonModule>ИнтеграцияСТехнологиейСервисаКлиент</CommonModule>
 			<CommonModule>НастройкиПрограммыПереопределяемый</CommonModule>
+			<CommonModule>НоменклатураВызовСервера</CommonModule>
+			<CommonModule>НоменклатураСервер</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
@@ -393,6 +393,7 @@
 			<CommonModule>ПользователиСлужебныйКлиент</CommonModule>
 			<CommonModule>ПользователиСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ПользователиСлужебныйПовтИсп</CommonModule>
+			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РегламентированныеДанныеКлиентСервер</CommonModule>
 			<CommonModule>РегламентныеЗаданияКлиент</CommonModule>
 			<CommonModule>РегламентныеЗаданияПереопределяемый</CommonModule>
@@ -408,6 +409,7 @@
 			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
+			<CommonAttribute>Ответственный</CommonAttribute>
 			<CommonAttribute>Комментарий</CommonAttribute>
 			<CommonAttribute>CloudID</CommonAttribute>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
@@ -424,6 +426,7 @@
 			<EventSubscription>ПриОтправкеДанныхПодчиненному</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтГлавного</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтПодчиненного</EventSubscription>
+			<EventSubscription>ДокументыОбработкаЗаполнения</EventSubscription>
 			<ScheduledJob>КонтрольАктивностиПользователей</ScheduledJob>
 			<ScheduledJob>ОтложенноеОбновлениеИБ</ScheduledJob>
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
@@ -524,7 +527,7 @@
 			<Catalog>ПользовательскиеНастройкиОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
-			<Document>СметаПоОбъекту</Document>
+			<Document>АвансовыйОтчет</Document>
 			<Document>ПоступлениеДенежныхСредств</Document>
 			<Document>СписаниеДенежныхСредств</Document>
 			<Enum>ВидыНоменклатуры</Enum>
