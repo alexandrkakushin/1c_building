@@ -1258,13 +1258,13 @@
 			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.Город" id="ec892594-83c1-11e8-7698-0cd2925c3816"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="38d02492-83be-11e8-7698-0cd2925c3816" configVersion="2c4520a6be83e81176980cd2925c381600000000"/>
-		<Metadata name="Report.БалансОбъектовСтроительства" id="59bd4688-91bc-11e8-9d9f-0cd2925c3816" configVersion="7c4983aa8196e811c1820cd2925c381600000000"/>
+		<Metadata name="Report.БалансОбъектовСтроительства" id="59bd4688-91bc-11e8-9d9f-0cd2925c3816" configVersion="a310354ecbe5314db530d3e85f1f0f7000000000"/>
 		<Metadata name="Report.БалансОбъектовСтроительства.Template.ОсновнаяСхемаКомпоновкиДанных" id="754c5358-91bc-11e8-9d9f-0cd2925c3816" configVersion="52761b308e96e811c1820cd2925c381600000000"/>
 		<Metadata name="Report.БалансОбъектовСтроительства.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="754c5358-91bc-11e8-9d9f-0cd2925c3816.0" configVersion="b00f1c078d96e811c1820cd2925c381600000000"/>
-		<Metadata name="Report.БюджетированиеОбъектов" id="ad240633-9681-11e8-c182-0cd2925c3816" configVersion="dabbffa38b96e811c1820cd2925c381600000000"/>
+		<Metadata name="Report.БюджетированиеОбъектов" id="ad240633-9681-11e8-c182-0cd2925c3816" configVersion="3c1cd298e385b041aae5b1ba68e13ce100000000"/>
 		<Metadata name="Report.БюджетированиеОбъектов.Template.ОсновнаяСхемаКомпоновкиДанных" id="47e5210a-968b-11e8-c182-0cd2925c3816" configVersion="4839277e8f96e811c1820cd2925c381600000000"/>
 		<Metadata name="Report.БюджетированиеОбъектов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="47e5210a-968b-11e8-c182-0cd2925c3816.0" configVersion="869d257e8f96e811c1820cd2925c381600000000"/>
-		<Metadata name="Report.ДвижениеДенежныхСредств" id="893f934c-91c7-11e8-b79e-0cd2925c3816" configVersion="98c9c219c891e811b79e0cd2925c381600000000"/>
+		<Metadata name="Report.ДвижениеДенежныхСредств" id="893f934c-91c7-11e8-b79e-0cd2925c3816" configVersion="5f0b089cc0ed234991879b8fbaad7bef00000000"/>
 		<Metadata name="Report.ДвижениеДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных" id="96f257f4-91c7-11e8-b79e-0cd2925c3816" configVersion="dc9eb1b1c891e811b79e0cd2925c381600000000"/>
 		<Metadata name="Report.ДвижениеДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="96f257f4-91c7-11e8-b79e-0cd2925c3816.0" configVersion="0800b1b1c891e811b79e0cd2925c381600000000"/>
 		<Metadata name="Report.ПрогрессОтложенногоОбновления" id="a7c7c835-5402-4bdd-a0e3-d21746174d5a" configVersion="55ed4ae8f223684cb96da5395268c61600000000"/>
