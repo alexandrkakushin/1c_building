@@ -4,6 +4,10 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаНомерДата" id="38">
 			<Title>
@@ -36,6 +40,11 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="Объект" id="42">
+			<DataPath>Объект.Объект</DataPath>
+			<ContextMenu name="ОбъектКонтекстноеМеню" id="43"/>
+			<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="44"/>
+		</InputField>
 		<InputField name="Контрагент" id="7">
 			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>

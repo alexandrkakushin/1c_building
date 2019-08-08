@@ -19,10 +19,12 @@
 		<ChildObjects>
 			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>ВариантыОтчетов</Subsystem>
-			<Subsystem>НастройкиПрограммы</Subsystem>
 			<Subsystem>ОбновлениеВерсииИБ</Subsystem>
+			<Subsystem>НастройкиПрограммы</Subsystem>
 			<Subsystem>Пользователи</Subsystem>
 			<Subsystem>РегламентныеЗадания</Subsystem>
+			<Subsystem>ОтчетОДвиженияхДокумента</Subsystem>
+			<Subsystem>ПодключаемыеКоманды</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -147,6 +147,7 @@
 			<Subsystem>ОбъектыСтроительства</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>БазоваяФункциональность</Subsystem>
+			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<StyleItem>ДобавленныйРеквизитФон</StyleItem>
@@ -379,11 +380,19 @@
 			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначенияПовтИсп</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиент</CommonModule>
+			<CommonModule>ОтчетОДвиженияхДокументаСлужебныйКлиент</CommonModule>
 			<CommonModule>ОтчетыКлиент</CommonModule>
 			<CommonModule>ОтчетыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ОтчетыКлиентСервер</CommonModule>
 			<CommonModule>ОтчетыПереопределяемый</CommonModule>
 			<CommonModule>ОтчетыСервер</CommonModule>
+			<CommonModule>ПодключаемыеКоманды</CommonModule>
+			<CommonModule>ПодключаемыеКомандыВызовСервера</CommonModule>
+			<CommonModule>ПодключаемыеКомандыКлиент</CommonModule>
+			<CommonModule>ПодключаемыеКомандыКлиентПовтИсп</CommonModule>
+			<CommonModule>ПодключаемыеКомандыКлиентСервер</CommonModule>
+			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
+			<CommonModule>ПодключаемыеКомандыПовтИсп</CommonModule>
 			<CommonModule>ПодсистемыКонфигурацииПереопределяемый</CommonModule>
 			<CommonModule>Пользователи</CommonModule>
 			<CommonModule>ПользователиКлиентСервер</CommonModule>
@@ -543,6 +552,7 @@
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
 			<Report>УниверсальныйОтчет</Report>
+			<Report>ДвиженияДокумента</Report>
 			<DataProcessor>ИмпортИзCarWash</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
@@ -567,6 +577,7 @@
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
 			<InformationRegister>УдалитьВерсииПодсистем</InformationRegister>
 			<AccumulationRegister>БалансОбъектовСтроительства</AccumulationRegister>
+			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
