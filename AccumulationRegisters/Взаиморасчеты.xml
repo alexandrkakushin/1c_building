@@ -165,6 +165,7 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
+			<Form>ЗадолженностьКонтрагентов</Form>
 		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

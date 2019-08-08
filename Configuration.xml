@@ -553,6 +553,7 @@
 			<Report>СведенияОПользователях</Report>
 			<Report>УниверсальныйОтчет</Report>
 			<Report>ДвиженияДокумента</Report>
+			<Report>Взаиморасчеты</Report>
 			<DataProcessor>ИмпортИзCarWash</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
