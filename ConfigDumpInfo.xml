@@ -448,8 +448,8 @@
 		<Metadata name="CommonModule.ВариантыОтчетовКлиент.Module" id="d74dfd31-2016-435b-8652-15fdbca59490.0" configVersion="dd61a4a8e240bd4d968de4d236fb936900000000"/>
 		<Metadata name="CommonModule.ВариантыОтчетовКлиентСервер" id="ba8111a9-1d33-4615-ad0b-b3e923b2f3bd" configVersion="9e46a2ce62bb194a9aea0b153981b86800000000"/>
 		<Metadata name="CommonModule.ВариантыОтчетовКлиентСервер.Module" id="ba8111a9-1d33-4615-ad0b-b3e923b2f3bd.0" configVersion="2ae21b6e3a4ad94db3b0bbe4b83193b000000000"/>
-		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый" id="27651e0e-d560-434b-a49c-f473a5b20c4d" configVersion="d2d2156273b64149822a3aa84817a72500000000"/>
-		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый.Module" id="27651e0e-d560-434b-a49c-f473a5b20c4d.0" configVersion="88d3f5d7a54b634f902b9fab81fe894800000000"/>
+		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый" id="27651e0e-d560-434b-a49c-f473a5b20c4d" configVersion="1b430c9361ef604485d73e36386ab29a00000000"/>
+		<Metadata name="CommonModule.ВариантыОтчетовПереопределяемый.Module" id="27651e0e-d560-434b-a49c-f473a5b20c4d.0" configVersion="036736b0e696d04b8f52dba02cd8543c00000000"/>
 		<Metadata name="CommonModule.ВариантыОтчетовПовтИсп" id="dab1491b-0685-442d-b945-2bfde3f37933" configVersion="afc98ad9adca8a48a4e06f4a56a7b73100000000"/>
 		<Metadata name="CommonModule.ВариантыОтчетовПовтИсп.Module" id="dab1491b-0685-442d-b945-2bfde3f37933.0" configVersion="1f76dc3444cc3644b27a23cafb35f53a00000000"/>
 		<Metadata name="CommonModule.ВнешниеПользователи" id="e5dfee58-f748-48ee-81a3-7c6133f06365" configVersion="a92f3b281c5a584f86c1be3352f9897a00000000"/>
