@@ -1037,7 +1037,7 @@
 		<Metadata name="DefinedType.Подразделение" id="28a25822-2306-409a-a7c8-6f7e42bf25e8" configVersion="26cd5e4eb8063744a9694a91567710db00000000"/>
 		<Metadata name="DefinedType.Пользователь" id="a72517c3-8c91-4e40-81ac-83c762789e87" configVersion="8316cf567d5eae40a6f3a34d20c9f7cd00000000"/>
 		<Metadata name="DefinedType.ФизическоеЛицо" id="46b0a5b3-1fa7-44ff-a941-c6de47d36e77" configVersion="98535fe5fd32e3429822e8b8fae9024300000000"/>
-		<Metadata name="Document.АвансовыйОтчет" id="b63bcedd-6561-463a-bd44-4f0b270975ce" configVersion="c31dce05f4392346be58b8bd5450730d00000000">
+		<Metadata name="Document.АвансовыйОтчет" id="b63bcedd-6561-463a-bd44-4f0b270975ce" configVersion="f2de00a66347244b977612b898e289d800000000">
 			<Metadata name="Document.АвансовыйОтчет.Attribute.Сумма" id="1f5e7fa3-df57-4113-b9ef-b152c4b07a80"/>
 			<Metadata name="Document.АвансовыйОтчет.TabularSection.Состав.Attribute.Сумма" id="83d1708a-4c3b-437a-b844-5cb80c1cad76"/>
 			<Metadata name="Document.АвансовыйОтчет.Attribute.Объект" id="9264daa8-8b4e-4e8d-a9cf-570148b17004"/>
@@ -1049,7 +1049,7 @@
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаДокумента.Form" id="c1813c29-d633-4240-8ab7-3406228f8d96.0" configVersion="bf0c764618c1384ca51fba956c59057800000000"/>
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаСписка" id="f4bf65bb-6b2d-4ef2-8015-7c4ab469f2b4" configVersion="945f5014a8a1f345ad1fb23ee6d0fd1b00000000"/>
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаСписка.Form" id="f4bf65bb-6b2d-4ef2-8015-7c4ab469f2b4.0" configVersion="35824c5a8760b543ba809c183c51428300000000"/>
-		<Metadata name="Document.АвансовыйОтчет.ObjectModule" id="b63bcedd-6561-463a-bd44-4f0b270975ce.0" configVersion="a7bb6a8a6c5bab4bb305608baa1084eb00000000"/>
+		<Metadata name="Document.АвансовыйОтчет.ObjectModule" id="b63bcedd-6561-463a-bd44-4f0b270975ce.0" configVersion="64d787a8c9dd204686f5b9f75dce39e300000000"/>
 		<Metadata name="Document.ПоступлениеДенежныхСредств" id="fa7c23ee-8692-11e8-5d87-0cd2925c3816" configVersion="1797321870b4fd428b48235154e0e86700000000">
 			<Metadata name="Document.ПоступлениеДенежныхСредств.Attribute.Контрагент" id="10dd81ae-8f27-11e8-7390-0cd2925c3816"/>
 			<Metadata name="Document.ПоступлениеДенежныхСредств.Attribute.Объект" id="194664c4-8693-11e8-5d87-0cd2925c3816"/>
