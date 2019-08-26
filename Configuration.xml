@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Configuration uuid="38d02186-83be-11e8-7698-0cd2925c3816">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -37,7 +37,7 @@
 			</Synonym>
 			<Comment/>
 			<NamePrefix/>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_13</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
@@ -418,11 +418,21 @@
 			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
+			<CommonModule>ОбменСМобильнымиОбработкаСервер</CommonModule>
+			<CommonModule>ОбменСМобильнымиРегистрацияИзмененийСервер</CommonModule>
+			<CommonModule>ОбменСМобильнымиСервер</CommonModule>
+			<CommonModule>ОбменСМобильнымиСерверПовтИсп</CommonModule>
+			<CommonModule>ОбменСМобильнымиСообщенияСервер</CommonModule>
+			<CommonModule>ОбменСМобильнымиФормированиеСообщенийСервер</CommonModule>
+			<CommonModule>ОбменСМобильнымиВызовСервера</CommonModule>
+			<CommonModule>ОбменСМобильнымиКлиентСервер</CommonModule>
 			<CommonAttribute>Ответственный</CommonAttribute>
 			<CommonAttribute>Комментарий</CommonAttribute>
 			<CommonAttribute>CloudID</CommonAttribute>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
+			<ExchangePlan>Мобильный</ExchangePlan>
 			<WebService>InterfaceVersion</WebService>
+			<HTTPService>mobile</HTTPService>
 			<EventSubscription>ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
 			<EventSubscription>ВариантыОтчетовПриУдаленииПользователя</EventSubscription>
 			<EventSubscription>ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</EventSubscription>
@@ -450,6 +460,7 @@
 			<FunctionalOption>СтандартныеПодсистемыВАвтономномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВЛокальномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВМоделиСервиса</FunctionalOption>
+			<FunctionalOption>ИспользоватьМобильныеКлиенты</FunctionalOption>
 			<DefinedType>ВнешнийПользователь</DefinedType>
 			<DefinedType>ВнешнийПользовательОбъект</DefinedType>
 			<DefinedType>МестоХраненияФункциональныхОпций</DefinedType>
@@ -484,6 +495,7 @@
 			<Constant>СведенияОБлокируемыхОбъектах</Constant>
 			<Constant>СведенияОбОбновленииИБ</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
+			<Constant>ИспользоватьМобильныеКлиенты</Constant>
 			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
 			<CommonForm>ВосстановлениеСвязиСГлавнымУзлом</CommonForm>
@@ -536,6 +548,8 @@
 			<Catalog>ПользовательскиеНастройкиОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
+			<Catalog>СообщенияИнтегрированныхСистем</Catalog>
+			<Catalog>ОчередиСообщенийИнтегрированныхСистем</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>ПоступлениеДенежныхСредств</Document>
 			<Document>СписаниеДенежныхСредств</Document>
@@ -546,6 +560,8 @@
 			<Enum>ТипыДанныхКэшаПрограммныхИнтерфейсов</Enum>
 			<Enum>ТипыОтчетов</Enum>
 			<Enum>ФорматыСохраненияОтчетов</Enum>
+			<Enum>ТипыСобытийПротоколаРаботыСМобильнымКлиентом</Enum>
+			<Enum>ОбменСМобильнымиТипыНастроекПользователей</Enum>
 			<Report>БалансОбъектовСтроительства</Report>
 			<Report>ДвижениеДенежныхСредств</Report>
 			<Report>БюджетированиеОбъектов</Report>
@@ -562,6 +578,7 @@
 			<DataProcessor>РегламентныеИФоновыеЗадания</DataProcessor>
 			<DataProcessor>РезультатыОбновленияПрограммы</DataProcessor>
 			<DataProcessor>РекомендацияПоПовышениюСкоростиРаботы</DataProcessor>
+			<DataProcessor>НастройкаСинхронизацииСМобильнымКлиентом</DataProcessor>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
@@ -577,6 +594,13 @@
 			<InformationRegister>СеансыВерсийРасширений</InformationRegister>
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
 			<InformationRegister>УдалитьВерсииПодсистем</InformationRegister>
+			<InformationRegister>РазрешенныеМобильныеПользователи</InformationRegister>
+			<InformationRegister>ОчередиСообщенийОбменаСМобильнымиКлиентами</InformationRegister>
+			<InformationRegister>СведенияОСообщенияхОбменаСМобильнымиКлиентами</InformationRegister>
+			<InformationRegister>СтепеньГотовностиСообщенийИнтегрированныхСистем</InformationRegister>
+			<InformationRegister>ПротоколРаботыСМобильнымиКлиентами</InformationRegister>
+			<InformationRegister>ОбменСМобильнымиНастройкиПользователей</InformationRegister>
+			<InformationRegister>СведенияОМобильныхКлиентах</InformationRegister>
 			<AccumulationRegister>БалансОбъектовСтроительства</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 		</ChildObjects>

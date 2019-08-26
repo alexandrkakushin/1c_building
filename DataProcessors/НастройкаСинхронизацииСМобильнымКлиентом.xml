@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<DataProcessor uuid="7aa28343-35ff-454f-8672-06c94b385db6">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.НастройкаСинхронизацииСМобильнымКлиентом" category="Object">
+				<xr:TypeId>6c1d0875-1916-48ab-bba7-68042f860e19</xr:TypeId>
+				<xr:ValueId>26dadb1b-4864-4ad1-bc5f-b14bcecb41f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.НастройкаСинхронизацииСМобильнымКлиентом" category="Manager">
+				<xr:TypeId>ddffcbcc-c5fa-44fd-a6e4-60a7277d2de9</xr:TypeId>
+				<xr:ValueId>4da126a9-b444-48f8-9b03-08cb7e60ed09</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкаСинхронизацииСМобильнымКлиентом</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка синхронизации с мобильным клиентом</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.НастройкаСинхронизацииСМобильнымКлиентом.Form.НастройкаПравилСинхронизации</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>НастройкаПравилСинхронизации</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

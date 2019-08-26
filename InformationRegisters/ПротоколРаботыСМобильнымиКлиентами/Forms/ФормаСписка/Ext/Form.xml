@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>CancelSearch</ExcludedCommand>
+		<ExcludedCommand>Change</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+		<ExcludedCommand>Find</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>Refresh</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>SetDateInterval</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<CommandBar name="ГруппаКоманды" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="87"/>
+			<ChildItems>
+				<ButtonGroup name="Группа2" id="88">
+					<CommandSource>Form</CommandSource>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="89"/>
+				</ButtonGroup>
+				<Button name="Изменить" id="100">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.Список.StandardCommand.Change</CommandName>
+					<ExtendedTooltip name="ИзменитьРасширеннаяПодсказка" id="101"/>
+				</Button>
+				<Button name="Обновить" id="90">
+					<Type>CommandBarButton</Type>
+					<OnlyInAllActions>true</OnlyInAllActions>
+					<CommandName>Form.Item.Список.StandardCommand.Refresh</CommandName>
+					<ExtendedTooltip name="ОбновитьРасширеннаяПодсказка" id="91"/>
+				</Button>
+				<Button name="Справка" id="92">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Help</CommandName>
+					<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="93"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОтборИСписок" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа отбор и список</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа отбор и список</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ChildItemsWidth>LeftWidest</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтборИСписокРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<Table name="Список" id="3">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<DefaultItem>true</DefaultItem>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<InitialListView>Beginning</InitialListView>
+					<InitialTreeView>ExpandTopLevel</InitialTreeView>
+					<EnableStartDrag>true</EnableStartDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>Список</DataPath>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+					<ContextMenu name="СписокКонтекстноеМеню" id="4">
+						<Autofill>false</Autofill>
+					</ContextMenu>
+					<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+					<SearchStringAddition name="СписокСтрокаПоиска" id="104">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="105"/>
+						<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="106"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокСостояниеПросмотра" id="107">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="108"/>
+						<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="109"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокУправлениеПоиском" id="110">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="111"/>
+						<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="112"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<ColumnGroup name="ГруппаСтроки" id="36">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа строки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа строки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаСтрокиРасширеннаяПодсказка" id="37"/>
+							<ChildItems>
+								<ColumnGroup name="ГруппаПерваяСтрока" id="38">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа первая строка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа первая строка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ExtendedTooltip name="ГруппаПерваяСтрокаРасширеннаяПодсказка" id="39"/>
+									<ChildItems>
+										<ColumnGroup name="ГруппаДатаСобытия" id="68">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа дата события</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа дата события</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>InCell</Group>
+											<ExtendedTooltip name="ГруппаДатаСобытияРасширеннаяПодсказка" id="69"/>
+											<ChildItems>
+												<PictureField name="ТипСобытияИндекс" id="65">
+													<DataPath>Список.ТипСобытияИндекс</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Width>2</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<FileDragMode>AsFile</FileDragMode>
+													<ContextMenu name="ТипСобытияИндексКонтекстноеМеню" id="66"/>
+													<ExtendedTooltip name="ТипСобытияИндексРасширеннаяПодсказка" id="67"/>
+												</PictureField>
+												<LabelField name="Период" id="7">
+													<DataPath>Список.Period</DataPath>
+													<DefaultItem>true</DefaultItem>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Дата</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ПериодКонтекстноеМеню" id="8"/>
+													<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="9"/>
+												</LabelField>
+											</ChildItems>
+										</ColumnGroup>
+										<ColumnGroup name="ГруппаМобильныйКлиент" id="31">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа мобильный клиент</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа мобильный клиент</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>InCell</Group>
+											<ExtendedTooltip name="ГруппаМобильныйКлиентРасширеннаяПодсказка" id="32"/>
+											<ChildItems>
+												<LabelField name="МобильныйКлиентПользователь" id="25">
+													<DataPath>Список.МобильныйКлиент.Пользователь</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Мобильный клиент</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="МобильныйКлиентПользовательКонтекстноеМеню" id="26"/>
+													<ExtendedTooltip name="МобильныйКлиентПользовательРасширеннаяПодсказка" id="27"/>
+												</LabelField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ГруппаВтораяСтрока" id="61">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа вторая строка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа вторая строка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>InCell</Group>
+									<ExtendedTooltip name="ГруппаВтораяСтрокаРасширеннаяПодсказка" id="62"/>
+									<ChildItems>
+										<PictureField name="СКлиента" id="19">
+											<DataPath>Список.СКлиента</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>2</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="СКлиентаКонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="СКлиентаРасширеннаяПодсказка" id="21"/>
+										</PictureField>
+										<LabelField name="ОписаниеСобытия" id="16">
+											<DataPath>Список.ОписаниеСобытия</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Описание</v8:content>
+												</v8:item>
+											</Title>
+											<Width>1</Width>
+											<Height>3</Height>
+											<ContextMenu name="ОписаниеСобытияКонтекстноеМеню" id="17"/>
+											<ExtendedTooltip name="ОписаниеСобытияРасширеннаяПодсказка" id="18"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="ГруппаСтрокиОбъект" id="63">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа строки объект</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа строки объект</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаСтрокиОбъектРасширеннаяПодсказка" id="64"/>
+							<ChildItems>
+								<LabelField name="ТипОбъекта" id="22">
+									<DataPath>Список.ТипОбъекта</DataPath>
+									<Width>20</Width>
+									<ContextMenu name="ТипОбъектаКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="ТипОбъектаРасширеннаяПодсказка" id="24"/>
+								</LabelField>
+								<LabelField name="ИдентификаторОбъекта" id="33">
+									<DataPath>Список.ИдентификаторОбъекта</DataPath>
+									<Width>20</Width>
+									<Height>3</Height>
+									<ContextMenu name="ИдентификаторОбъектаКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="ИдентификаторОбъектаРасширеннаяПодсказка" id="35"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</Table>
+				<UsualGroup name="ГруппаОтбор" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отбор</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отбор</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПользовательИКлиент" id="113">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа пользователь и клиент</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа пользователь и клиент</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПользовательИКлиентРасширеннаяПодсказка" id="114"/>
+							<ChildItems>
+								<InputField name="Пользователь" id="44">
+									<DataPath>Пользователь</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<ClearButton>true</ClearButton>
+									<OpenButton>false</OpenButton>
+									<ContextMenu name="ПользовательКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="46"/>
+									<Events>
+										<Event name="OnChange">ПользовательПриИзменении</Event>
+										<Event name="StartChoice">ПользовательНачалоВыбора</Event>
+									</Events>
+								</InputField>
+								<InputField name="МобильныйКлиент" id="50">
+									<DataPath>МобильныйКлиент</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<DropListButton>true</DropListButton>
+									<ChoiceButton>false</ChoiceButton>
+									<ClearButton>true</ClearButton>
+									<OpenButton>false</OpenButton>
+									<ContextMenu name="МобильныйКлиентКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="МобильныйКлиентРасширеннаяПодсказка" id="52"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДата" id="59">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="ГруппаДатаРасширеннаяПодсказка" id="60"/>
+							<ChildItems>
+								<InputField name="ДатаС" id="53">
+									<DataPath>ДатаС</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>с</v8:content>
+										</v8:item>
+									</Title>
+									<Width>14</Width>
+									<ClearButton>true</ClearButton>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДФ='dd.MM.yyyy ЧЧ:мм'</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="ДатаСКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="ДатаСРасширеннаяПодсказка" id="55"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ДатаПо" id="56">
+									<DataPath>ДатаПо</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>по</v8:content>
+										</v8:item>
+									</Title>
+									<Width>14</Width>
+									<ClearButton>true</ClearButton>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДФ='dd.MM.yyyy ЧЧ:мм'</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="ДатаПоКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="ДатаПоРасширеннаяПодсказка" id="58"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаУровеньОтображения" id="78">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Показывать события</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа уровень отображения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаУровеньОтображенияРасширеннаяПодсказка" id="79"/>
+							<ChildItems>
+								<CheckBoxField name="ТолькоОшибки" id="47">
+									<DataPath>ПоказыватьИнформацию</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Информационные записи</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТолькоОшибкиКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="ТолькоОшибкиРасширеннаяПодсказка" id="49"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="ПоказыватьПредупреждения" id="72">
+									<DataPath>ПоказыватьПредупреждения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предупреждения</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоказыватьПредупрежденияКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="ПоказыватьПредупрежденияРасширеннаяПодсказка" id="74"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="ПоказыватьСообщенияОПроблемахОтПользователей" id="97">
+									<DataPath>ПоказыватьСообщенияОПроблемахОтПользователей</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоказыватьСообщенияОПроблемахОтПользователейКонтекстноеМеню" id="98"/>
+									<ExtendedTooltip name="ПоказыватьСообщенияОПроблемахОтПользователейРасширеннаяПодсказка" id="99"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="ПоказыватьОшибки" id="75">
+									<DataPath>ПоказыватьОшибки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ошибки</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоказыватьОшибкиКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="ПоказыватьОшибкиРасширеннаяПодсказка" id="77"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаМестоСовершения" id="102">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>По месту наступления события</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа место совершения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаМестоСовершенияРасширеннаяПодсказка" id="103"/>
+							<ChildItems>
+								<CheckBoxField name="СобытияКлиента" id="80">
+									<DataPath>СобытияКлиента</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Мобильный клиент</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СобытияКлиентаКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="СобытияКлиентаРасширеннаяПодсказка" id="82"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="СобытияСервера" id="83">
+									<DataPath>СобытияСервера</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сервер документооборота</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СобытияСервераКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="СобытияСервераРасширеннаяПодсказка" id="85"/>
+									<Events>
+										<Event name="OnChange">ПоказыватьПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.ИдентификаторОбъекта</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.Период,
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.МобильныйКлиент,
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.МоментВремени,
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ИдентификаторОбъекта,
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ОписаниеСобытия,
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.СКлиента,
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипОбъекта,
+	РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия,
+	ВЫБОР
+		КОГДА РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия = ЗНАЧЕНИЕ(Перечисление.ТипыСобытийПротоколаРаботыСМобильнымКлиентом.Информация)
+			ТОГДА 0
+		КОГДА РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия = ЗНАЧЕНИЕ(Перечисление.ТипыСобытийПротоколаРаботыСМобильнымКлиентом.Ошибка)
+			ТОГДА 2
+		КОГДА РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия = ЗНАЧЕНИЕ(Перечисление.ТипыСобытийПротоколаРаботыСМобильнымКлиентом.Предупреждение)
+			ТОГДА 1
+		Иначе
+			3
+	КОНЕЦ КАК ТипСобытияИндекс
+ИЗ
+	РегистрСведений.ПротоколРаботыСМобильнымиКлиентами КАК РегистрСведенийПротоколРаботыСМобильнымиКлиентами
+ГДЕ
+	(РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия = ЗНАЧЕНИЕ(Перечисление.ТипыСобытийПротоколаРаботыСМобильнымКлиентом.Информация)
+				И &amp;ПоказыватьИнформацию
+			ИЛИ РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия = ЗНАЧЕНИЕ(Перечисление.ТипыСобытийПротоколаРаботыСМобильнымКлиентом.Ошибка)
+				И &amp;ПоказыватьОшибки
+			ИЛИ РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия = ЗНАЧЕНИЕ(Перечисление.ТипыСобытийПротоколаРаботыСМобильнымКлиентом.Предупреждение)
+				И &amp;ПоказыватьПредупреждения
+			Или РегистрСведенийПротоколРаботыСМобильнымиКлиентами.ТипСобытия = ЗНАЧЕНИЕ(Перечисление.ТипыСобытийПротоколаРаботыСМобильнымКлиентом.СообщениеОПроблемеОтПользователя)
+				И &amp;ПоказыватьСообщенияОПроблемахОтПользователей)
+	И (РегистрСведенийПротоколРаботыСМобильнымиКлиентами.СКлиента
+				И &amp;СобытияКлиента
+			ИЛИ НЕ РегистрСведенийПротоколРаботыСМобильнымиКлиентами.СКлиента
+				И &amp;СобытияСервера)
+	И (РегистрСведенийПротоколРаботыСМобильнымиКлиентами.Период &gt;= &amp;ДатаС
+			ИЛИ &amp;ДатаС = ДАТАВРЕМЯ(1, 1, 1))
+	И (РегистрСведенийПротоколРаботыСМобильнымиКлиентами.Период &lt;= &amp;ДатаПо
+			ИЛИ &amp;ДатаПо = ДАТАВРЕМЯ(1, 1, 1))
+	И (РегистрСведенийПротоколРаботыСМобильнымиКлиентами.МобильныйКлиент = &amp;МобильныйКлиент
+			ИЛИ &amp;МобильныйКлиент = ЗНАЧЕНИЕ(ПланОбмена.Мобильный.ПустаяСсылка))
+	И (РегистрСведенийПротоколРаботыСМобильнымиКлиентами.МобильныйКлиент.Пользователь = &amp;Пользователь
+			ИЛИ &amp;Пользователь = ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка))</QueryText>
+				<MainTable>InformationRegister.ПротоколРаботыСМобильнымиКлиентами</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>МоментВремени</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Период</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ИдентификаторОбъекта</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>ТипОбъекта</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ИдентификаторОбъекта</dcsset:left>
+									<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Отображать</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Пользователь" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьИнформацию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать информацию</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="МобильныйКлиент" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобильный клиент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаС" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата С</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаПо" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата по</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьПредупреждения" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать предупреждения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьОшибки" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СобытияКлиента" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>События клиента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СобытияСервера" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>События сервера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьСообщенияОПроблемахОтПользователей" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщения о проблемах от пользователей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Сообщение</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ИдентификаторСообщения" id="9">
+			<DataPath>Объект.ИдентификаторСообщения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ИдентификаторСообщенияКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ИдентификаторСообщенияExtendedTooltip" id="32"/>
+		</InputField>
+		<InputField name="Очередь" id="13">
+			<DataPath>Объект.Очередь</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОчередьКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОчередьExtendedTooltip" id="31"/>
+		</InputField>
+		<UsualGroup name="ГруппаКодИсходноеСообщение" id="42">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодИсходноеСообщениеРасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<InputField name="Код" id="22">
+					<DataPath>Объект.Code</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Width>24</Width>
+					<ContextMenu name="КодКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="КодExtendedTooltip" id="28"/>
+				</InputField>
+				<InputField name="ИдентификаторИсходногоСообщения" id="7">
+					<DataPath>Объект.ВОтветНа</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В ответ на</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИдентификаторИсходногоСообщенияКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ИдентификаторИсходногоСообщенияExtendedTooltip" id="33"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаВходящееРазмер" id="40">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа входящее размер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаВходящееРазмерРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<CheckBoxField name="Входящее" id="24">
+					<DataPath>Объект.Входящее</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВходящееКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ВходящееExtendedTooltip" id="29"/>
+				</CheckBoxField>
+				<InputField name="Размер" id="18">
+					<DataPath>Размер</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="РазмерКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="РазмерExtendedTooltip" id="34"/>
+				</InputField>
+				<UsualGroup name="ГруппаДаты" id="38">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа даты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаДатыРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<InputField name="ДатаСоздания" id="5">
+							<DataPath>Объект.ДатаСоздания</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создано</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="ДатаСозданияКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="ДатаСозданияExtendedTooltip" id="30"/>
+						</InputField>
+						<InputField name="ДатаОбработки" id="3">
+							<DataPath>Объект.ДатаОбработки</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаОбработкиКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="ДатаОбработкиExtendedTooltip" id="37"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<TextDocumentField name="ТекстСообщения" id="20">
+			<DataPath>ТекстСообщения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Top</TitleLocation>
+			<Height>20</Height>
+			<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="ТекстСообщенияExtendedTooltip" id="35"/>
+		</TextDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.СообщенияИнтегрированныхСистем</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Размер" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстСообщения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

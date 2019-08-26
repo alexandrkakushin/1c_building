@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<CommandSet>
@@ -320,7 +320,7 @@
 											<ChildItems>
 												<LabelDecoration name="ДекорацияЧтоБудетДальшеНовый" id="187">
 													<AutoMaxWidth>false</AutoMaxWidth>
-													<TextColor>style:ПоясняющийТекст</TextColor>
+													<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -345,7 +345,7 @@
 											<ChildItems>
 												<LabelDecoration name="ДекорацияЧтоБудетДальшеПерезапись" id="184">
 													<AutoMaxWidth>false</AutoMaxWidth>
-													<TextColor>style:ПоясняющийТекст</TextColor>
+													<TextColor>0:ad87bd29-0ad1-4da4-ac62-38e714e0cb9f</TextColor>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -370,7 +370,7 @@
 											<ChildItems>
 												<LabelDecoration name="ДекорацияЧтоБудетДальшеПерезаписьНевозможна" id="203">
 													<AutoMaxWidth>false</AutoMaxWidth>
-													<TextColor>style:ПоясняющийОшибкуТекст</TextColor>
+													<TextColor>0:b9627855-6773-4a59-b7d3-f9e2e565cd9e</TextColor>
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -522,7 +522,7 @@
 									<CellHyperlink>true</CellHyperlink>
 									<Hiperlink>true</Hiperlink>
 									<PasswordMode>false</PasswordMode>
-									<TextColor>style:ГиперссылкаЦвет</TextColor>
+									<TextColor>0:757b547b-b79c-459a-a64a-eef19a09a38f</TextColor>
 									<ContextMenu name="ДеревоПодсистемПользователиПредставлениеКонтекстноеМеню" id="138"/>
 									<ExtendedTooltip name="ДеревоПодсистемПользователиПредставлениеРасширеннаяПодсказка" id="139"/>
 								</LabelField>
