@@ -1326,13 +1326,13 @@
 			<Metadata name="InformationRegister.НастройкиВариантовОтчетов.Dimension.Пользователь" id="ff8eedeb-fc3e-4bee-852b-6da6d59ff38c"/>
 		</Metadata>
 		<Metadata name="InformationRegister.НастройкиВариантовОтчетов.ManagerModule" id="b6f8bc3e-f0cd-43ef-b060-d701cd446197.2" configVersion="70ab4cba95696541b900851988ce7d6200000000"/>
-		<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей" id="0717149f-80c4-4868-b1ee-c77b4dd59f5a" configVersion="42dd455a76f7264f96ef91735987aa0e00000000">
+		<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей" id="0717149f-80c4-4868-b1ee-c77b4dd59f5a" configVersion="bcf0b5ee3aee4f42a5711d372d0ba67100000000">
 			<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей.Dimension.Пользователь" id="0edaee1a-f13a-49b9-988d-4e47b7ca1fd1"/>
 			<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей.Resource.Значение" id="ccd694c7-98c5-49c0-946e-77ea3282351d"/>
 			<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей.Dimension.Настройка" id="ed9f882a-5ac0-48cc-875d-762c2a6d90eb"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей.Help" id="0717149f-80c4-4868-b1ee-c77b4dd59f5a.0" configVersion="1773d366a248c34d9e8ab4029f8dc14400000000"/>
-		<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей.ManagerModule" id="0717149f-80c4-4868-b1ee-c77b4dd59f5a.2" configVersion="7398cc89735f564cbd909886bf7040b900000000"/>
+		<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей.ManagerModule" id="0717149f-80c4-4868-b1ee-c77b4dd59f5a.2" configVersion="420872b225b63f4aa5fa90b36bf0023c00000000"/>
 		<Metadata name="InformationRegister.ОбменСМобильнымиНастройкиПользователей.RecordSetModule" id="0717149f-80c4-4868-b1ee-c77b4dd59f5a.1" configVersion="40beb66c040e6346b14c47a4b8d6342200000000"/>
 		<Metadata name="InformationRegister.ОчередиСообщенийОбменаСМобильнымиКлиентами" id="20ae0965-8f3a-40ba-9c14-77e2be30c49f" configVersion="1ecbd4083ae8fc48b0acc2d4dcf05dc600000000">
 			<Metadata name="InformationRegister.ОчередиСообщенийОбменаСМобильнымиКлиентами.Dimension.МобильныйКлиент" id="94353b5c-1320-4c04-a13c-068c6612795f"/>
