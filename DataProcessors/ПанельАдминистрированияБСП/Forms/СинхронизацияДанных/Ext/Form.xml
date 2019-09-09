@@ -428,14 +428,14 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаМобильноеПриложениеРасширеннаяПодсказка" id="2082"/>
 			<ChildItems>
-				<CheckBoxField name="АР_ИспользоватьМобильныеКлиенты" id="2078">
+				<CheckBoxField name="ИспользоватьМобильныеКлиенты" id="2078">
 					<DataPath>НаборКонстант.ИспользоватьМобильныеКлиенты</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="АР_ИспользоватьМобильныеКлиентыКонтекстноеМеню" id="2079"/>
-					<ExtendedTooltip name="АР_ИспользоватьМобильныеКлиентыРасширеннаяПодсказка" id="2080"/>
+					<ContextMenu name="ИспользоватьМобильныеКлиентыКонтекстноеМеню" id="2079"/>
+					<ExtendedTooltip name="ИспользоватьМобильныеКлиентыРасширеннаяПодсказка" id="2080"/>
 					<Events>
-						<Event name="OnChange">АР_ИспользоватьМобильныеКлиентыПриИзменении</Event>
+						<Event name="OnChange">ИспользоватьМобильныеКлиентыПриИзменении</Event>
 					</Events>
 				</CheckBoxField>
 			</ChildItems>

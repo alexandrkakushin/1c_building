@@ -1048,8 +1048,8 @@
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ПечатныеФормыОтчетыИОбработки" id="8381bc76-0e0f-4196-9911-ec05730cb1c9" configVersion="27568d4a4cfd4d4a84c61b63f19b3aaf00000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ПечатныеФормыОтчетыИОбработки.Form" id="8381bc76-0e0f-4196-9911-ec05730cb1c9.0" configVersion="29f7155875166e44af1611f365d2010900000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ПечатныеФормыОтчетыИОбработки.Help" id="8381bc76-0e0f-4196-9911-ec05730cb1c9.1" configVersion="7403eee2e3f33445aed107a8772fd58c00000000"/>
-		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.СинхронизацияДанных" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794" configVersion="24451c80aa42b549927c9a3269600c6900000000"/>
-		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.СинхронизацияДанных.Form" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794.0" configVersion="702c6e1f4cb4c641b5ca8ceca5855ae400000000"/>
+		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.СинхронизацияДанных" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794" configVersion="42e2e831841ab642ad3075c44c19ee2100000000"/>
+		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.СинхронизацияДанных.Form" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794.0" configVersion="7eddb4bc09b22549bb6e9c4208b5439000000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.СинхронизацияДанных.Help" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794.1" configVersion="a2f389e9c60b734aa921a5cba6bb151300000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.Форма" id="771a1900-46be-49fe-a02d-584780de8363" configVersion="7b759256e47b8143aa49526b47e1c05700000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.Форма.Form" id="771a1900-46be-49fe-a02d-584780de8363.0" configVersion="44e034c3c3ab3b459fbe2db1d14bbdcf00000000"/>
